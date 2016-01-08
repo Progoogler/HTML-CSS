@@ -1,0 +1,26 @@
+/*
+=========================
+Vendor prefix guideline
+=========================
+*/
+
+div {
+background: -webkit-linear-gradient(#a1d3b0, #f6f1d3); /* Google */
+background:    -moz-linear-gradient(#a1d3b0, #f6f1d3); /* Mozilla*/
+background:         linear-gradient(#a1d3b0, #f6f1d3); /* Ch, Safari 5.1+, IE 8+, Opera 9+  */
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+/* 
+* As browsers evolve into its modern stages of development,
+* vendor prefixes are becoming less common as a standard,
+* however, until a modulated consensus is founded across
+* all modern browsers, it is a necessary component of
+* front-end web development and cross-browser-compatibility.
+*
+* Refer to http://shouldiprefix.com/
+* for an up-to-date reference on where and when to prefix.
+*/
+
